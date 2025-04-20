@@ -25,4 +25,5 @@ public class BoardService {
     public boolean addBoard(Board board) {
         return boardDAO.addBoard(board);
     }
+
 }
